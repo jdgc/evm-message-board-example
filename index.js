@@ -1,5 +1,5 @@
 window.addEventListener('load', async function() {
-  const CONTRACT_ADDRESS = '0xB2c986A96c7d930D40Cf5b9bE56001a33a2dAc33';
+  const CONTRACT_ADDRESS = '0x91dEA7110b0914B3Ef6D3AC7e413321962EcAF3C';
   const NETWORK = 'matic mumbai testnet'
 
   try {
