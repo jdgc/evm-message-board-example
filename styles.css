@@ -1,0 +1,41 @@
+body {
+  background: #eef2ff;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#board-header {
+  text-align: center;
+  color: #af0a0f;
+}
+
+.post p {
+  margin: 0;
+  padding: 5px;
+}
+
+#new-thread-form {
+  border-spacing: 1px;
+  text-align: center;
+}
+
+#reply-form {
+  display: none;
+  position: fixed;
+  text-align: center;
+  right: 0;
+}
+
+#reply-header {
+  background-color: #98e;
+  font-weight: 700;
+}
+
+.reply-container {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="body-wrapper">
+      <h1 id="board-header"> /mumbai test board/ </h1>
+      <form id="new-thread-form">
+        <textarea name="text" cols="48" rows="4" tabindex="4 "id="post"></textarea>
+        <br>
+        <input type="submit" value="New Thread">
+      </form>
+
+      <form id="reply-form">
+        <div class="reply-container">
+          <div id="reply-header">
+            Reply to Thread No.
+            <span id="reply-thread-number"></span>
+          </div>
+          <textarea name="text" cols="48" rows="4" tabindex="4 "id="reply"></textarea>
+          <br>
+          <input type="submit" value="Post">
+        </div>
+      </form>
+
+      <div class="thread-container"></div>
+      <div class="footer">
+        <span class="disclaimer">
+          All trademarks and copyrights on this page are owned by their respective parties. Images uploaded are the responsibility of the Poster. Comments are owned by the Poster.
+        </span>
+        <br>
+        <span class="links">
+          <a href="https://www.github.com/jdgc" target="_blank">Github</a>
+          • 
+          <a href="mailto:james@jdgc.dev" subject="EVM Board Test">Contact</a>
+        </span>
+      </div>
+    </div>
+  </body>
+
+  <script src="Board.json"
+          type="text/javascript">
+  </script>
+  <script charset="utf-8"
+          src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+          type="text/javascript">
+
+  </script>
+  <script src="./index.js"></script>
+</html>
