@@ -3,6 +3,7 @@ window.addEventListener('load', async function() {
   const NETWORK = 'matic mumbai testnet'
 
   try {
+    window.ethereum.enable();
     provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
     window.boardContract = new ethers.Contract(CONTRACT_ADDRESS, abi, signer);
